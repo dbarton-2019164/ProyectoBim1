@@ -3,13 +3,20 @@
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
+import cors from 'cors';
 import { dbConnection } from "./mongo.js";
+import adminRoutes from "../src/user/user.routes.js";
 
 class Server {
   constructor() {
     this.app = express();
     this.port = process.env.PORT;
+    this.userPath = '/shop/v1/users';
+    
+
+    this.middlewares();
     this.conectarDB();
+    this.routes();
   }
 
   async conectarDB() {
@@ -28,7 +35,9 @@ class Server {
     this.app.use(morgan("dev"));
   }
 
-  routes() {}
+  routes() {
+    this.app.use(this.userPath, adminRoutes);
+  }
 
   listen() {
     this.app.listen(this.port, () => {

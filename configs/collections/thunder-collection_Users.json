@@ -1,0 +1,124 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Users",
+    "dateExported": "2024-03-08T02:19:31.096Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a1e03a80-cf1a-4c97-9e4b-cf80b6f249ed",
+            "colId": "b06521d1-3683-4acf-8d5f-69a56fc8368e",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:8080/shop/v1/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-07T23:35:01.595Z",
+            "modified": "2024-03-08T02:14:05.128Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": \"Usuari1\",\n  \"password\" : \"1234567\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "2beb673d-0660-4b79-8590-88a657eb7b37",
+            "colId": "b06521d1-3683-4acf-8d5f-69a56fc8368e",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:8080/shop/v1/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-07T23:35:01.597Z",
+            "modified": "2024-03-08T02:13:58.014Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Diego\",\n  \"user\" : \"Usuari1\",\n  \"email\": \"diego1321@kinal.org.gt\",\n  \"password\" : \"1234567\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "822fe6f5-8cf3-42e1-8af1-0e14d21ea205",
+            "colId": "b06521d1-3683-4acf-8d5f-69a56fc8368e",
+            "containerId": "",
+            "name": "editName",
+            "url": "http://localhost:8080/shop/v1/users",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-07T23:35:01.598Z",
+            "modified": "2024-03-08T00:20:07.789Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNTI2MzRkMzM2MDAxNzBkZjJlZWEiLCJpYXQiOjE3MDk4NTcwMTMsImV4cCI6MTcwOTg2MDYxM30.J_vEo5gUBRS4Da-Oh3ozOpBzu_9a-1ZbtczkAhnVTPY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Editado jijija\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "195b4383-c668-48eb-9bd2-c96a6ae35fc5",
+            "colId": "b06521d1-3683-4acf-8d5f-69a56fc8368e",
+            "containerId": "",
+            "name": "editPassword",
+            "url": "http://localhost:8080/shop/v1/users/password/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-07T23:35:01.599Z",
+            "modified": "2024-03-08T00:21:22.936Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNTI2MzRkMzM2MDAxNzBkZjJlZWEiLCJpYXQiOjE3MDk4NTcwMTMsImV4cCI6MTcwOTg2MDYxM30.J_vEo5gUBRS4Da-Oh3ozOpBzu_9a-1ZbtczkAhnVTPY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"oldPassword\" : \"1234567\",\n  \"newPassword\" : \"nueva123\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "92d11a7b-c17c-4a7f-980a-44038a0680a3",
+            "colId": "b06521d1-3683-4acf-8d5f-69a56fc8368e",
+            "containerId": "",
+            "name": "deleteUser",
+            "url": "http://localhost:8080/shop/v1/users/",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-08T00:35:06.782Z",
+            "modified": "2024-03-08T00:37:29.368Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNTI2MzRkMzM2MDAxNzBkZjJlZWEiLCJpYXQiOjE3MDk4NTcwMTMsImV4cCI6MTcwOTg2MDYxM30.J_vEo5gUBRS4Da-Oh3ozOpBzu_9a-1ZbtczkAhnVTPY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Password\" : \"nueva123\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        }
+    ]
+}

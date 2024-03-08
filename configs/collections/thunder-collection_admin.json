@@ -1,0 +1,54 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "admin",
+    "dateExported": "2024-03-08T02:19:39.119Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6e1cdbdc-883f-436d-8e16-215ce902340e",
+            "colId": "3ebdfc82-a700-4c13-a19e-00c78c3dda2b",
+            "containerId": "",
+            "name": "editarByAdmins",
+            "url": "http://localhost:8080/shop/v1/users/admin/65ea52714d33600170df2ef0",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-08T01:27:46.592Z",
+            "modified": "2024-03-08T01:58:52.793Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNTI2MzRkMzM2MDAxNzBkZjJlZWEiLCJpYXQiOjE3MDk4NjE0NjksImV4cCI6MTcwOTg2NTA2OX0.SmjJe9W2qCOeb6i-1LuWe3zE3N4oR37O6hH1AS-I6Eo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"editadoPorOtro\",\n  \"Password\" : \"password123\",\n  \"role\" : \"CLIENT_ROLE\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "d2ba6cb2-4fa5-4291-8f4e-c41604da09d6",
+            "colId": "3ebdfc82-a700-4c13-a19e-00c78c3dda2b",
+            "containerId": "",
+            "name": "eliminarByAdmins",
+            "url": "http://localhost:8080/shop/v1/users/admin/65ea73d654a45d96b084cc4a",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-03-08T01:58:29.826Z",
+            "modified": "2024-03-08T02:14:34.239Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNzQ2NTU0YTQ1ZDk2YjA4NGNjNTkiLCJpYXQiOjE3MDk4NjQwNDUsImV4cCI6MTcwOTg2NzY0NX0.tUCvurVJdlPjFN7Ja2I9_sOPKdIozZjLczfa5lQCmiw"
+                }
+            ],
+            "params": [],
+            "reqType": "put",
+            "tests": []
+        }
+    ]
+}
