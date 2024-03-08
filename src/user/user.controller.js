@@ -26,7 +26,7 @@ export const registerUser = async (req, res) => {
       usuario,
     });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    res.status(500).json({ error: error.message });
   }
 };
 
@@ -70,11 +70,11 @@ export const editByAdmin = async (req, res) => {
   }
   await userModel.findByIdAndUpdate(id, { name: name, password: password, role: role });
 
-  const userNew = await userModel.findById(id);
+  const result = await userModel.findById(id);
 
   res.status(200).json({
     msg: "User updated successfully",
-    userNew
+    result
   });
 }
 
@@ -93,13 +93,14 @@ export const deleteByAdmin = async (req, res) => {
       msg: "The user was not found"
     });
   }
-  await userModel.findByIdAndUpdate(id, { condition : false });
+   await userModel.findByIdAndUpdate(id, { condition : false });
 
-  const userNew = await userModel.findById(id);
+   
+  const result = await userModel.findById(id);
 
   res.status(200).json({
     msg: "User deleted successfully",
-    userNew
+    result
   });
 }
 

@@ -6,12 +6,13 @@ import morgan from "morgan";
 import cors from 'cors';
 import { dbConnection } from "./mongo.js";
 import adminRoutes from "../src/user/user.routes.js";
-
+import categoryRoutes from "../src/category/category.routes.js";
 class Server {
   constructor() {
     this.app = express();
     this.port = process.env.PORT;
     this.userPath = '/shop/v1/users';
+    this.categoryPath = '/shop/v1/category';
     
 
     this.middlewares();
@@ -37,6 +38,7 @@ class Server {
 
   routes() {
     this.app.use(this.userPath, adminRoutes);
+    this.app.use(this.categoryPath, categoryRoutes);
   }
 
   listen() {
