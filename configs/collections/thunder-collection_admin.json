@@ -1,20 +1,20 @@
 {
     "client": "Thunder Client",
     "collectionName": "admin",
-    "dateExported": "2024-03-08T04:55:41.510Z",
+    "dateExported": "2024-03-08T17:39:31.939Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "6e1cdbdc-883f-436d-8e16-215ce902340e",
-            "colId": "3ebdfc82-a700-4c13-a19e-00c78c3dda2b",
+            "_id": "97247c56-debc-4256-b6a9-ca268a7f97c5",
+            "colId": "4e5e70c1-2ed5-463a-9230-cab8c91589d0",
             "containerId": "",
             "name": "editarByAdmins",
             "url": "http://localhost:8080/shop/v1/users/admin/65ea52714d33600170df2ef0",
             "method": "PUT",
             "sortNum": 10000,
-            "created": "2024-03-08T01:27:46.592Z",
-            "modified": "2024-03-08T01:58:52.793Z",
+            "created": "2024-03-08T13:53:30.820Z",
+            "modified": "2024-03-08T13:53:30.820Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -27,19 +27,18 @@
                 "raw": "{\n  \"name\" : \"editadoPorOtro\",\n  \"Password\" : \"password123\",\n  \"role\" : \"CLIENT_ROLE\"\n}",
                 "form": []
             },
-            "reqType": "get",
             "tests": []
         },
         {
-            "_id": "d2ba6cb2-4fa5-4291-8f4e-c41604da09d6",
-            "colId": "3ebdfc82-a700-4c13-a19e-00c78c3dda2b",
+            "_id": "48b69826-98f8-4c20-ad63-e592af2e1d73",
+            "colId": "4e5e70c1-2ed5-463a-9230-cab8c91589d0",
             "containerId": "",
             "name": "eliminarByAdmins",
             "url": "http://localhost:8080/shop/v1/users/admin/65ea73d654a45d96b084cc4a",
             "method": "DELETE",
             "sortNum": 20000,
-            "created": "2024-03-08T01:58:29.826Z",
-            "modified": "2024-03-08T04:20:42.987Z",
+            "created": "2024-03-08T13:53:30.822Z",
+            "modified": "2024-03-08T13:53:30.822Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -47,7 +46,6 @@
                 }
             ],
             "params": [],
-            "reqType": "put",
             "tests": []
         }
     ]

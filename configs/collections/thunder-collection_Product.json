@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Product",
+    "dateExported": "2024-03-08T17:39:08.164Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0ea44df4-7939-4aff-8320-6db51158be1e",
+            "colId": "c4b8431f-bb3b-4c2f-ae39-f6efe12ebf7e",
+            "containerId": "",
+            "name": "registerProduct",
+            "url": "http://localhost:8080/shop/v1/product",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T16:35:16.758Z",
+            "modified": "2024-03-08T17:12:43.439Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Y5OWEyNjk4ZTU4NDQwMDk5MTEiLCJpYXQiOjE3MDk5MTYwNjMsImV4cCI6MTcwOTkxOTY2M30.XcoWK-H--pDy6yxM8xpY5SfPZGIcyTUET_hRey_Svzk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"producto\": \"Producto 2\",\n  \"price\" : 11.99,\n  \"category\" : \"CATEGORIA 1\",\n  \"stock\" : 5\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
