@@ -1,43 +1,44 @@
 {
     "client": "Thunder Client",
     "collectionName": "cartShopping",
-    "dateExported": "2024-03-09T04:17:52.353Z",
+    "dateExported": "2024-03-11T01:59:54.782Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "35bb90e8-e76c-4fbe-a55a-473bb8f75768",
-            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "_id": "1159f90f-2c02-4db7-99f3-755b9f049c77",
+            "colId": "b63a0e11-a6b6-47d8-b742-ef8f8bd339a1",
             "containerId": "",
             "name": "createCart",
             "url": "http://localhost:8080/shop/v1/cart",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-09T01:09:12.025Z",
-            "modified": "2024-03-09T03:34:20.984Z",
+            "created": "2024-03-11T01:20:19.218Z",
+            "modified": "2024-03-11T01:50:04.834Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZTJiYjE4OTk0MWNmNGY4OTkyMTMiLCJpYXQiOjE3MTAxMjAwOTAsImV4cCI6MTcxMDEyMzY5MH0.DWkMeYODA-tiinrhLQ6i6H_kmZKT33cPaENBmzQNL-E"
                 }
             ],
             "params": [],
+            "reqType": "post",
             "tests": []
         },
         {
-            "_id": "55288f90-0eaf-4d3e-bf37-e74268250a2a",
-            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "_id": "ec252ef3-8cc8-49e7-a99e-abd8a97f5cbd",
+            "colId": "b63a0e11-a6b6-47d8-b742-ef8f8bd339a1",
             "containerId": "",
             "name": "buyCart",
             "url": "http://localhost:8080/shop/v1/cart/buy/",
             "method": "POST",
             "sortNum": 15000,
-            "created": "2024-03-09T02:35:48.615Z",
-            "modified": "2024-03-09T03:35:03.576Z",
+            "created": "2024-03-11T01:20:19.220Z",
+            "modified": "2024-03-11T01:50:20.741Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZTJiYjE4OTk0MWNmNGY4OTkyMTMiLCJpYXQiOjE3MTAxMjAwOTAsImV4cCI6MTcxMDEyMzY5MH0.DWkMeYODA-tiinrhLQ6i6H_kmZKT33cPaENBmzQNL-E"
                 }
             ],
             "params": [],
@@ -45,28 +46,28 @@
             "tests": []
         },
         {
-            "_id": "db02539c-a1e9-4650-a454-b9768d077df1",
-            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "_id": "622a9b39-a954-4f89-8407-b0ed41d74f44",
+            "colId": "b63a0e11-a6b6-47d8-b742-ef8f8bd339a1",
             "containerId": "",
             "name": "addProductToCart",
             "url": "http://localhost:8080/shop/v1/cart",
             "method": "PUT",
             "sortNum": 20000,
-            "created": "2024-03-09T01:54:07.364Z",
-            "modified": "2024-03-09T03:34:57.149Z",
+            "created": "2024-03-11T01:20:19.219Z",
+            "modified": "2024-03-11T01:51:17.904Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViZTJiYjE4OTk0MWNmNGY4OTkyMTMiLCJpYXQiOjE3MTAxMjAwOTAsImV4cCI6MTcxMDEyMzY5MH0.DWkMeYODA-tiinrhLQ6i6H_kmZKT33cPaENBmzQNL-E"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"producto\": \"Producto 5\",\n  \"quantity\": 1\n}\n",
+                "raw": "{\n  \"producto\": \"Producto 5\",\n  \"quantity\": 3\n}\n",
                 "form": []
             },
-            "reqType": "post",
+            "reqType": "put",
             "tests": []
         }
     ]

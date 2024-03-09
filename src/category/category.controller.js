@@ -30,13 +30,14 @@ export const deleteCategory = async (req, res) => {
             msg: "You cannot access this function"
         });
     }
-    if (id === idDefault._id) {
+    if (id === String(idDefault?._id)) {
         return res.status(400).json({
             msg: "You cannot delete this category"
         });
-
-
     }
+
+
+    
     const deletedCategory = await categoryModel.findById(id);
     await productModel.updateMany(
         { category: deletedCategory._id },
