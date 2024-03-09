@@ -1,73 +1,74 @@
 {
     "client": "Thunder Client",
     "collectionName": "Category",
-    "dateExported": "2024-03-08T17:39:24.371Z",
+    "dateExported": "2024-03-09T00:10:50.181Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "7e5f5f57-7b03-4666-9e5e-ed4f0501d456",
-            "colId": "848ad7c2-9e02-4532-ac4e-32e0db8c2f27",
+            "_id": "65c6bd17-5324-4894-8460-eaff558557af",
+            "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "registerCategory",
             "url": "http://localhost:8080/shop/v1/category",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-08T13:53:30.847Z",
-            "modified": "2024-03-08T16:47:50.492Z",
+            "created": "2024-03-08T21:12:58.116Z",
+            "modified": "2024-03-08T21:55:06.440Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Y5OWEyNjk4ZTU4NDQwMDk5MTEiLCJpYXQiOjE3MDk5MTYwNjMsImV4cCI6MTcwOTkxOTY2M30.XcoWK-H--pDy6yxM8xpY5SfPZGIcyTUET_hRey_Svzk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzQzMjAsImV4cCI6MTcwOTkzNzkyMH0.cBvJtG7WJ9enwPlqd3H0C5ocaHcY3spx9SgqpIOxjHw"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"CATEGORIA 1\"\n}",
+                "raw": "{\n  \"name\" : \"CATEGORIA 2\"\n}",
                 "form": []
             },
             "reqType": "post",
             "tests": []
         },
         {
-            "_id": "3dba5ef1-7a55-45f4-b23b-f235c10b9286",
-            "colId": "848ad7c2-9e02-4532-ac4e-32e0db8c2f27",
+            "_id": "4318a434-ff59-433c-ac52-6aa826c401c0",
+            "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "updateCategory",
-            "url": "http://localhost:8080/shop/v1/category/65ea8f35e637d597954f97f2",
+            "url": "http://localhost:8080/shop/v1/category/65eb893a7439f86b582c5901",
             "method": "PUT",
             "sortNum": 20000,
-            "created": "2024-03-08T13:53:30.848Z",
-            "modified": "2024-03-08T13:53:30.848Z",
+            "created": "2024-03-08T21:12:58.117Z",
+            "modified": "2024-03-08T22:48:57.766Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNzQ2NTU0YTQ1ZDk2YjA4NGNjNTkiLCJpYXQiOjE3MDk4NzA4OTMsImV4cCI6MTcwOTg3NDQ5M30.PWqFyDrcMyG2SlEbtyVpTCABdbTO0vjrboH47yGTL3o"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzgwMjMsImV4cCI6MTcwOTk0MTYyM30.F26dKKdYtL2Qv-e48OpC1HMtqjClaplSYyN2X0_apwE"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"Categoria que voy a borr\"\n}",
+                "raw": "{\n  \"name\" : \"Categoria prueba\"\n}",
                 "form": []
             },
+            "reqType": "put",
             "tests": []
         },
         {
-            "_id": "a1ded68a-a207-405b-8002-da8fc8ae7ee7",
-            "colId": "848ad7c2-9e02-4532-ac4e-32e0db8c2f27",
+            "_id": "147a9eae-7f3a-4a33-9c31-2b9898c80aa7",
+            "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "getCategories",
             "url": "http://localhost:8080/shop/v1/category",
             "method": "GET",
             "sortNum": 20000,
-            "created": "2024-03-08T13:53:30.851Z",
-            "modified": "2024-03-08T16:45:27.318Z",
+            "created": "2024-03-08T21:12:58.119Z",
+            "modified": "2024-03-08T22:48:44.837Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Y5OWEyNjk4ZTU4NDQwMDk5MTEiLCJpYXQiOjE3MDk5MTYwNjMsImV4cCI6MTcwOTkxOTY2M30.XcoWK-H--pDy6yxM8xpY5SfPZGIcyTUET_hRey_Svzk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzgwMjMsImV4cCI6MTcwOTk0MTYyM30.F26dKKdYtL2Qv-e48OpC1HMtqjClaplSYyN2X0_apwE"
                 }
             ],
             "params": [],
@@ -75,15 +76,15 @@
             "tests": []
         },
         {
-            "_id": "1cb1df98-0380-4ccd-a606-baec08e80747",
-            "colId": "848ad7c2-9e02-4532-ac4e-32e0db8c2f27",
+            "_id": "6bf004f7-ad85-4536-82cc-2da58bd7f6a6",
+            "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "deleteCategory",
             "url": "http://localhost:8080/shop/v1/category/65ea8f35e637d597954f97f2",
             "method": "DELETE",
             "sortNum": 30000,
-            "created": "2024-03-08T13:53:30.849Z",
-            "modified": "2024-03-08T13:53:30.849Z",
+            "created": "2024-03-08T21:12:58.118Z",
+            "modified": "2024-03-08T21:12:58.118Z",
             "headers": [
                 {
                     "name": "x-token",

@@ -21,6 +21,12 @@ export async function categoryExists(categoria = "") {
     throw new Error(`The category ${categorias.name} already exists`);
   }
 }
+export async function categoryExistsID(id = "") {
+  const categorias = await categoryModel.findById(id);
+  if (!categorias) {
+    throw new Error(`The category does not exist`);
+  }
+}
 
 export async function categoryExists2(categoria = "") {
   const categorias = await categoryModel.findOne({ name: categoria });
@@ -33,5 +39,12 @@ export async function productExists(producto = "") {
   const productos = await productModel.findOne({ name: producto });
   if (productos) {
     throw new Error(`The product ${productos.name} already exists`);
+  }
+}
+
+export async function productExistsID(id = "") {
+  const productos = await productModel.findById(id);
+  if (!productos) {
+    throw new Error(`The product does not exist`);
   }
 }

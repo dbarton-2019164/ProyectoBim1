@@ -1,20 +1,20 @@
 {
     "client": "Thunder Client",
     "collectionName": "Users",
-    "dateExported": "2024-03-08T17:39:14.555Z",
+    "dateExported": "2024-03-09T00:11:08.608Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "b48a40b1-c2a3-41b6-a392-e6214a1b2c99",
-            "colId": "0faf39ac-551d-4ab7-8678-7850681aed73",
+            "_id": "5194b916-bc94-4cb1-b409-21ed39142bf2",
+            "colId": "b99353d5-a7fc-4be8-933d-d3d1ce60c6c0",
             "containerId": "",
             "name": "login",
             "url": "http://localhost:8080/shop/v1/users",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2024-03-08T13:53:30.867Z",
-            "modified": "2024-03-08T16:41:03.623Z",
+            "created": "2024-03-08T21:12:58.267Z",
+            "modified": "2024-03-08T21:12:58.267Z",
             "headers": [],
             "params": [],
             "body": {
@@ -22,19 +22,18 @@
                 "raw": "{\n  \"user\": \"user\",\n  \"password\" : \"1234567\"\n}",
                 "form": []
             },
-            "reqType": "get",
             "tests": []
         },
         {
-            "_id": "b4925a7a-878d-41ca-aecb-35560275bfa1",
-            "colId": "0faf39ac-551d-4ab7-8678-7850681aed73",
+            "_id": "e1421dcc-aced-4544-9d1b-6b4421aa727a",
+            "colId": "b99353d5-a7fc-4be8-933d-d3d1ce60c6c0",
             "containerId": "",
             "name": "register",
             "url": "http://localhost:8080/shop/v1/users",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-08T13:53:30.868Z",
-            "modified": "2024-03-08T16:40:57.375Z",
+            "created": "2024-03-08T21:12:58.268Z",
+            "modified": "2024-03-08T21:12:58.268Z",
             "headers": [],
             "params": [],
             "body": {
@@ -42,19 +41,18 @@
                 "raw": "{\n  \"name\" : \"Diego\",\n  \"user\" : \"user\",\n  \"email\": \"user@kinal.org.gt\",\n  \"password\" : \"1234567\"\n}",
                 "form": []
             },
-            "reqType": "post",
             "tests": []
         },
         {
-            "_id": "5a64d3de-bda3-4c65-8999-e36a977c4da3",
-            "colId": "0faf39ac-551d-4ab7-8678-7850681aed73",
+            "_id": "67f0e8fd-9cd3-4c4c-85df-47cb5b79648e",
+            "colId": "b99353d5-a7fc-4be8-933d-d3d1ce60c6c0",
             "containerId": "",
             "name": "editName",
             "url": "http://localhost:8080/shop/v1/users",
             "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-03-08T13:53:30.869Z",
-            "modified": "2024-03-08T13:53:30.869Z",
+            "created": "2024-03-08T21:12:58.269Z",
+            "modified": "2024-03-08T21:12:58.269Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -70,15 +68,15 @@
             "tests": []
         },
         {
-            "_id": "16402179-fd75-41b7-8d39-3ca1aefc3030",
-            "colId": "0faf39ac-551d-4ab7-8678-7850681aed73",
+            "_id": "29ca60a0-c080-4cd2-9663-4793e5777a32",
+            "colId": "b99353d5-a7fc-4be8-933d-d3d1ce60c6c0",
             "containerId": "",
             "name": "editPassword",
             "url": "http://localhost:8080/shop/v1/users/password/",
             "method": "PUT",
             "sortNum": 40000,
-            "created": "2024-03-08T13:53:30.870Z",
-            "modified": "2024-03-08T13:53:30.870Z",
+            "created": "2024-03-08T21:12:58.271Z",
+            "modified": "2024-03-08T21:12:58.271Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -94,15 +92,15 @@
             "tests": []
         },
         {
-            "_id": "a86c95b6-3c5d-456c-82db-084c46327774",
-            "colId": "0faf39ac-551d-4ab7-8678-7850681aed73",
+            "_id": "953f2268-322e-48fe-adb8-6ee9e24113ae",
+            "colId": "b99353d5-a7fc-4be8-933d-d3d1ce60c6c0",
             "containerId": "",
             "name": "deleteUser",
             "url": "http://localhost:8080/shop/v1/users/",
             "method": "DELETE",
             "sortNum": 50000,
-            "created": "2024-03-08T13:53:30.871Z",
-            "modified": "2024-03-08T13:53:30.871Z",
+            "created": "2024-03-08T21:12:58.272Z",
+            "modified": "2024-03-08T21:12:58.272Z",
             "headers": [
                 {
                     "name": "x-token",

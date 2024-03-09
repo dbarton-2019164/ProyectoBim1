@@ -1,20 +1,20 @@
 {
     "client": "Thunder Client",
     "collectionName": "admin",
-    "dateExported": "2024-03-08T17:39:31.939Z",
+    "dateExported": "2024-03-09T00:10:43.695Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "97247c56-debc-4256-b6a9-ca268a7f97c5",
-            "colId": "4e5e70c1-2ed5-463a-9230-cab8c91589d0",
+            "_id": "ee536805-8c5f-4bf6-9fe3-143f4ffa3c51",
+            "colId": "87f5c07e-b55d-4e6c-bdca-7239a3ea1860",
             "containerId": "",
             "name": "editarByAdmins",
             "url": "http://localhost:8080/shop/v1/users/admin/65ea52714d33600170df2ef0",
             "method": "PUT",
             "sortNum": 10000,
-            "created": "2024-03-08T13:53:30.820Z",
-            "modified": "2024-03-08T13:53:30.820Z",
+            "created": "2024-03-08T21:12:58.052Z",
+            "modified": "2024-03-08T21:12:58.052Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -30,15 +30,15 @@
             "tests": []
         },
         {
-            "_id": "48b69826-98f8-4c20-ad63-e592af2e1d73",
-            "colId": "4e5e70c1-2ed5-463a-9230-cab8c91589d0",
+            "_id": "5ad092a7-747c-42de-8c38-8e89d5a66151",
+            "colId": "87f5c07e-b55d-4e6c-bdca-7239a3ea1860",
             "containerId": "",
             "name": "eliminarByAdmins",
             "url": "http://localhost:8080/shop/v1/users/admin/65ea73d654a45d96b084cc4a",
             "method": "DELETE",
             "sortNum": 20000,
-            "created": "2024-03-08T13:53:30.822Z",
-            "modified": "2024-03-08T13:53:30.822Z",
+            "created": "2024-03-08T21:12:58.053Z",
+            "modified": "2024-03-08T21:12:58.053Z",
             "headers": [
                 {
                     "name": "x-token",
