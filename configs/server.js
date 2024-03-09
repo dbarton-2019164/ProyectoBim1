@@ -5,11 +5,11 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import categoryRoutes from "../src/category/category.routes.js";
-
 import productRoutes from "../src/product/product.routes.js";
-
 import adminRoutes from "../src/user/user.routes.js";
+import cartRoutes from "../src/CartShopping/CartShopping.routes.js";
 import { dbConnection } from "./mongo.js";
+
 class Server {
   constructor() {
     this.app = express();
@@ -17,6 +17,7 @@ class Server {
     this.userPath = "/shop/v1/users";
     this.categoryPath = "/shop/v1/category";
     this.productPath = "/shop/v1/product";
+    this.cartPath = "/shop/v1/cart";
 
     this.middlewares();
     this.conectarDB();
@@ -43,6 +44,7 @@ class Server {
     this.app.use(this.userPath, adminRoutes);
     this.app.use(this.categoryPath, categoryRoutes);
     this.app.use(this.productPath, productRoutes);
+    this.app.use(this.cartPath, cartRoutes);
   }
 
   listen() {

@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "cartShopping",
+    "dateExported": "2024-03-09T01:12:41.423Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "35bb90e8-e76c-4fbe-a55a-473bb8f75768",
+            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "containerId": "",
+            "name": "createCart",
+            "url": "http://localhost:8080/shop/v1/cart",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-09T01:09:12.025Z",
+            "modified": "2024-03-09T01:09:45.307Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NDY1NzEsImV4cCI6MTcwOTk1MDE3MX0.55nzE1qpm-kuhmhEyZTGcRbaa90FAlWTu2VWTPGVNKk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
