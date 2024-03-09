@@ -117,18 +117,21 @@ export const getHistory = async (req, res) => {
 
 export const getHistoryAdmin = async (req, res) => {
     const usuarioAutenticado = req.usuario;
-    const {id} = req.params;
-    if (usuarioAutenticado.role !== "ADMIN_ROLE") {
-        return res.status(400).json({
-          msg: "you cannot access this function"
-        });
-      }
-    const History = await FacturaModel.find({ customer: id }).populate('cart');
-    if(!History){
-        return res.status(404).json({
-            msg: "no purchase history"
-        });
-    }
-    res.status(200).json({ History });
+    const { id } = req.params;
 
+    if (usuarioAutenticado.role !== "ADMIN_ROLE") {
+        return res.status(400).json({ msg: "You cannot access this function" });
+    }
+
+    const usuarioExistente = await UserModel.findById(id);
+    if (!usuarioExistente) {
+        return res.status(404).json({ msg: "User not found" });
+    }
+
+    const History = await FacturaModel.find({ customer: id }).populate('cart');
+    if (!History || History.length === 0) {
+        return res.status(404).json({ msg: "No purchase history found" });
+    }
+
+    res.status(200).json({ History });
 };
