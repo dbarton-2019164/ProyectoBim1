@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "admin",
-    "dateExported": "2024-03-09T03:40:12.271Z",
+    "dateExported": "2024-03-09T04:17:24.654Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -48,6 +48,25 @@
             ],
             "params": [],
             "reqType": "del",
+            "tests": []
+        },
+        {
+            "_id": "d8c606f1-54b1-4fcb-af00-79f559df4648",
+            "colId": "87f5c07e-b55d-4e6c-bdca-7239a3ea1860",
+            "containerId": "",
+            "name": "historyAdmin",
+            "url": "http://localhost:8080/shop/v1/cart",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-09T04:10:06.333Z",
+            "modified": "2024-03-09T04:10:06.333Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                }
+            ],
+            "params": [],
             "tests": []
         }
     ]

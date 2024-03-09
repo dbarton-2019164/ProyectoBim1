@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Users",
-    "dateExported": "2024-03-09T03:40:55.904Z",
+    "dateExported": "2024-03-09T04:17:42.593Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,14 +14,15 @@
             "method": "GET",
             "sortNum": 10000,
             "created": "2024-03-08T21:12:58.267Z",
-            "modified": "2024-03-08T21:12:58.267Z",
+            "modified": "2024-03-09T04:17:07.435Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"user\": \"user\",\n  \"password\" : \"1234567\"\n}",
+                "raw": "{\n  \"user\": \"user2\",\n  \"password\" : \"1234567\"\n}",
                 "form": []
             },
+            "reqType": "get",
             "tests": []
         },
         {
@@ -33,14 +34,15 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-03-08T21:12:58.268Z",
-            "modified": "2024-03-08T21:12:58.268Z",
+            "modified": "2024-03-09T04:16:59.385Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"Diego\",\n  \"user\" : \"user\",\n  \"email\": \"user@kinal.org.gt\",\n  \"password\" : \"1234567\"\n}",
+                "raw": "{\n  \"name\" : \"Diego\",\n  \"user\" : \"user2\",\n  \"email\": \"use3r@kinal.org.gt\",\n  \"password\" : \"1234567\"\n}",
                 "form": []
             },
+            "reqType": "post",
             "tests": []
         },
         {

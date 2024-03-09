@@ -3,7 +3,7 @@ import { check } from "express-validator";
 import { productExists2, productExistsID } from "../helpers/db-validator.js";
 import { validarCampos } from "../middlewares/validar-campos.js";
 import { validarJWT } from "../middlewares/validar-jwt.js";
-import { createCart, addProduct, MakePurchases, getHistory} from "./CartShopping.controller.js";
+import { createCart, addProduct, MakePurchases, getHistory, getHistoryAdmin} from "./CartShopping.controller.js";
 
 
 const router = Router();
@@ -25,6 +25,16 @@ router.get(
         validarCampos
     ],
     getHistory
+    );
+    //const old = await userModel.findById(id);
+router.get(
+    "/admin/:id",
+    [
+        validarJWT,
+        check("id", "it is not a valid format").isMongoId(),
+        validarCampos
+    ],
+    getHistoryAdmin
     );
 
 router.put(
