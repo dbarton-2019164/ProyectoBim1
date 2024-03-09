@@ -145,13 +145,15 @@ export const showProducts = async (req, res) => {
   products = await Promise.all(products.map(async (productGroup) => {
     const category = await categoryModel.findById(productGroup._id);
     const categoryName = category ? category.name : 'Unknown';
-    productGroup.products = productGroup.products.map(product => {
-      product.category = categoryName;
-      if (product.stock === 0) {
-        product.status = 'not available';
-      }
-      return product;
-    });
+    if (productGroup.products) {
+      productGroup.products = productGroup.products.map(product => {
+        product.category = categoryName;
+        if (product.stock === 0) {
+          product.status = 'not available';
+        }
+        return product;
+      });
+    }
     return productGroup;
   }));
   res.status(200).json({ products });

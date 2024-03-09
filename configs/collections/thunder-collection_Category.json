@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Category",
-    "dateExported": "2024-03-09T00:10:50.181Z",
+    "dateExported": "2024-03-09T03:40:19.613Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,17 +14,17 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-08T21:12:58.116Z",
-            "modified": "2024-03-08T21:55:06.440Z",
+            "modified": "2024-03-09T03:28:37.474Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzQzMjAsImV4cCI6MTcwOTkzNzkyMH0.cBvJtG7WJ9enwPlqd3H0C5ocaHcY3spx9SgqpIOxjHw"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQwNTEsImV4cCI6MTcwOTk1NzY1MX0.Rg4lPkzdVCkkU-2YEgD6CP3nZ6xxCOmWPE0FrcPDWq4"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"CATEGORIA 2\"\n}",
+                "raw": "{\n  \"name\" : \"Categoria 3\"\n}",
                 "form": []
             },
             "reqType": "post",
@@ -35,21 +35,21 @@
             "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "updateCategory",
-            "url": "http://localhost:8080/shop/v1/category/65eb893a7439f86b582c5901",
+            "url": "http://localhost:8080/shop/v1/category/65ebd7659caa5b50188fe900",
             "method": "PUT",
             "sortNum": 20000,
             "created": "2024-03-08T21:12:58.117Z",
-            "modified": "2024-03-08T22:48:57.766Z",
+            "modified": "2024-03-09T03:29:09.836Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzgwMjMsImV4cCI6MTcwOTk0MTYyM30.F26dKKdYtL2Qv-e48OpC1HMtqjClaplSYyN2X0_apwE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"Categoria prueba\"\n}",
+                "raw": "{\n  \"name\" : \"Categoria editada\"\n}",
                 "form": []
             },
             "reqType": "put",
@@ -64,11 +64,11 @@
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-03-08T21:12:58.119Z",
-            "modified": "2024-03-08T22:48:44.837Z",
+            "modified": "2024-03-09T03:29:18.508Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzgwMjMsImV4cCI6MTcwOTk0MTYyM30.F26dKKdYtL2Qv-e48OpC1HMtqjClaplSYyN2X0_apwE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
@@ -80,18 +80,19 @@
             "colId": "eed77881-0bac-42f3-aba1-ed4e8958dedb",
             "containerId": "",
             "name": "deleteCategory",
-            "url": "http://localhost:8080/shop/v1/category/65ea8f35e637d597954f97f2",
+            "url": "http://localhost:8080/shop/v1/category/65ebd7659caa5b50188fe900",
             "method": "DELETE",
             "sortNum": 30000,
             "created": "2024-03-08T21:12:58.118Z",
-            "modified": "2024-03-08T21:12:58.118Z",
+            "modified": "2024-03-09T03:32:19.335Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNzQ2NTU0YTQ1ZDk2YjA4NGNjNTkiLCJpYXQiOjE3MDk4NzA4OTMsImV4cCI6MTcwOTg3NDQ5M30.PWqFyDrcMyG2SlEbtyVpTCABdbTO0vjrboH47yGTL3o"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
+            "reqType": "del",
             "tests": []
         }
     ]

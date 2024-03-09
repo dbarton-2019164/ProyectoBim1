@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "65ebd43215fb431254b0fe02"
+  },
+  "name": "DEFAULT",
+  "condition": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebd75d9caa5b50188fe8f8"
+  },
+  "name": "Categoria 1",
+  "condition": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebd7629caa5b50188fe8fc"
+  },
+  "name": "Categoria 2",
+  "condition": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ebd7659caa5b50188fe900"
+  },
+  "name": "Categoria editada",
+  "condition": false,
+  "__v": 0
+}]

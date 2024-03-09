@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "65eb86eced6f89f4d838d44e"
+  },
+  "name": "Editado jijija",
+  "user": "user",
+  "email": "user@kinal.org.gt",
+  "password": "$2a$10$bdm5R9W4PcSUSCdTh7SfGe0ymAjSp7rATQN7sly3ShBy88YMz3ZRe",
+  "role": "ADMIN_ROLE",
+  "condition": true,
+  "__v": 0
+}]

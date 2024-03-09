@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Product",
-    "dateExported": "2024-03-09T00:11:02.429Z",
+    "dateExported": "2024-03-09T03:41:04.295Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,17 +14,17 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-08T21:12:58.202Z",
-            "modified": "2024-03-08T23:12:50.370Z",
+            "modified": "2024-03-09T03:31:39.647Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5MzgwMjMsImV4cCI6MTcwOTk0MTYyM30.F26dKKdYtL2Qv-e48OpC1HMtqjClaplSYyN2X0_apwE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"producto\": \"Producto 7\",\n  \"price\" : 11.99,\n  \"category\" : \"Categoria prueba\",\n  \"stock\" : 0\n}",
+                "raw": "{\n  \"producto\": \"Producto 5\",\n  \"price\" : 13.99,\n  \"category\" : \"Categoria 2\",\n  \"stock\" : 100\n}",
                 "form": []
             },
             "reqType": "post",
@@ -64,11 +64,11 @@
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-03-08T22:45:32.545Z",
-            "modified": "2024-03-09T00:03:19.217Z",
+            "modified": "2024-03-09T03:15:47.306Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NDE4MzUsImV4cCI6MTcwOTk0NTQzNX0.d2BKggr6_zUXYXeowdNEjcI605r-MWZ_nRLBfxUepqk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQwNTEsImV4cCI6MTcwOTk1NzY1MX0.Rg4lPkzdVCkkU-2YEgD6CP3nZ6xxCOmWPE0FrcPDWq4"
                 }
             ],
             "params": [],
@@ -103,17 +103,17 @@
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-03-08T23:50:58.421Z",
-            "modified": "2024-03-09T00:09:21.791Z",
+            "modified": "2024-03-09T03:32:47.202Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NDE4MzUsImV4cCI6MTcwOTk0NTQzNX0.d2BKggr6_zUXYXeowdNEjcI605r-MWZ_nRLBfxUepqk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQwNTEsImV4cCI6MTcwOTk1NzY1MX0.Rg4lPkzdVCkkU-2YEgD6CP3nZ6xxCOmWPE0FrcPDWq4"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"Producto 7\"\n}",
+                "raw": "{\n  \"name\" : \"Producto 1\"\n}",
                 "form": []
             },
             "reqType": "get",

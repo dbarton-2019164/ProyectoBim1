@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "65ebd8bc9caa5b50188fe944"
+  },
+  "creator": {
+    "$oid": "65eb86eced6f89f4d838d44e"
+  },
+  "products": [],
+  "total": 0,
+  "condition": true,
+  "__v": 2
+}]

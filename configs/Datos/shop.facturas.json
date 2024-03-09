@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "65ebd8e79caa5b50188fe956"
+  },
+  "cart": {
+    "$oid": "65ebd8bc9caa5b50188fe944"
+  },
+  "customer": {
+    "$oid": "65eb86eced6f89f4d838d44e"
+  },
+  "total": 13.99,
+  "condition": true,
+  "date": {
+    "$date": "2024-03-09T03:35:03.553Z"
+  },
+  "__v": 0
+}]

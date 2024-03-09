@@ -42,6 +42,13 @@ export async function productExists(producto = "") {
   }
 }
 
+export async function productExists2(producto = "") {
+  const productos = await productModel.findOne({ name: producto });
+  if (!productos) {
+    throw new Error(`The product does not exist`);
+  }
+}
+
 export async function productExistsID(id = "") {
   const productos = await productModel.findById(id);
   if (!productos) {

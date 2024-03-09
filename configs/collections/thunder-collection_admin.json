@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "admin",
-    "dateExported": "2024-03-09T00:10:43.695Z",
+    "dateExported": "2024-03-09T03:40:12.271Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,11 +14,11 @@
             "method": "PUT",
             "sortNum": 10000,
             "created": "2024-03-08T21:12:58.052Z",
-            "modified": "2024-03-08T21:12:58.052Z",
+            "modified": "2024-03-09T03:40:07.287Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNTI2MzRkMzM2MDAxNzBkZjJlZWEiLCJpYXQiOjE3MDk4NjE0NjksImV4cCI6MTcwOTg2NTA2OX0.SmjJe9W2qCOeb6i-1LuWe3zE3N4oR37O6hH1AS-I6Eo"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
@@ -27,6 +27,7 @@
                 "raw": "{\n  \"name\" : \"editadoPorOtro\",\n  \"Password\" : \"password123\",\n  \"role\" : \"CLIENT_ROLE\"\n}",
                 "form": []
             },
+            "reqType": "put",
             "tests": []
         },
         {
@@ -38,14 +39,15 @@
             "method": "DELETE",
             "sortNum": 20000,
             "created": "2024-03-08T21:12:58.053Z",
-            "modified": "2024-03-08T21:12:58.053Z",
+            "modified": "2024-03-09T03:40:05.302Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNzQ2NTU0YTQ1ZDk2YjA4NGNjNTkiLCJpYXQiOjE3MDk4NzA4OTMsImV4cCI6MTcwOTg3NDQ5M30.PWqFyDrcMyG2SlEbtyVpTCABdbTO0vjrboH47yGTL3o"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
+            "reqType": "del",
             "tests": []
         }
     ]

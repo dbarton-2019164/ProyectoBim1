@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "cartShopping",
-    "dateExported": "2024-03-09T01:12:41.423Z",
+    "dateExported": "2024-03-09T03:40:49.252Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,14 +14,59 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-09T01:09:12.025Z",
-            "modified": "2024-03-09T01:09:45.307Z",
+            "modified": "2024-03-09T03:34:20.984Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NDY1NzEsImV4cCI6MTcwOTk1MDE3MX0.55nzE1qpm-kuhmhEyZTGcRbaa90FAlWTu2VWTPGVNKk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
                 }
             ],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "55288f90-0eaf-4d3e-bf37-e74268250a2a",
+            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "containerId": "",
+            "name": "buyCart",
+            "url": "http://localhost:8080/shop/v1/cart/buy/",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-03-09T02:35:48.615Z",
+            "modified": "2024-03-09T03:35:03.576Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                }
+            ],
+            "params": [],
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "db02539c-a1e9-4650-a454-b9768d077df1",
+            "colId": "eb8bfcec-af92-40f6-a2de-d399355204fc",
+            "containerId": "",
+            "name": "addProductToCart",
+            "url": "http://localhost:8080/shop/v1/cart",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-09T01:54:07.364Z",
+            "modified": "2024-03-09T03:34:57.149Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViODZlY2VkNmY4OWY0ZDgzOGQ0NGUiLCJpYXQiOjE3MDk5NTQ4NDksImV4cCI6MTcwOTk1ODQ0OX0.1fgvuSbxk0Bs2XMPSRm0pT9yvmxSjvvGcG6MZTaAfL4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"producto\": \"Producto 5\",\n  \"quantity\": 1\n}\n",
+                "form": []
+            },
+            "reqType": "post",
             "tests": []
         }
     ]

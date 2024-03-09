@@ -1,0 +1,28 @@
+import mongoose, { Schema } from "mongoose";
+
+const facturaSchema = new mongoose.Schema({
+    cart: {
+        type: Schema.Types.ObjectId,
+        ref: "CartShopping",
+        required: true
+    },
+    customer: {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+        required: true
+    },
+    total: {
+        type: Number,
+        required: true
+    },
+    date: {
+        type: Date,
+        default: Date.now
+    },
+    condition: {
+        type: Boolean,
+        default: true
+    }
+});
+
+export default mongoose.model("Factura", facturaSchema);
