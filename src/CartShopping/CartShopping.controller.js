@@ -1,6 +1,7 @@
 import CartShoppingModel from "./CartShopping.model.js";
 import productModel from "../product/product.model.js";
 import FacturaModel from "./factura";
+import UserModel from "../user/user.model.js";
 export const createCart = async (req, res) => {
     const usuarioAutenticado = req.usuario;
     const exist = await CartShoppingModel.findOne({ creator: usuarioAutenticado._id })
